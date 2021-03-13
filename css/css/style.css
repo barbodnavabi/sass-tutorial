@@ -1,0 +1,94 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+html {
+  font-size: 100%;
+}
+
+.containar {
+  max-width: 60rem;
+  padding-right: 5rem;
+}
+
+.card-footer, .card-header {
+  width: 47rem;
+  border: 1px solid #c6b9df;
+  padding: 1rem 0.5rem;
+}
+
+.card-header {
+  background: aliceblue;
+  margin-top: 1.3rem;
+}
+
+.card-footer {
+  background: aliceblue;
+}
+
+.card-description {
+  background: #c8acac2e;
+  max-width: 48rem;
+}
+
+.card-link {
+  padding: 0.6rem;
+}
+
+p.card-p {
+  padding: 29.2px;
+  margin-bottom: 1rem;
+}
+
+.head {
+  font-size: 2rem;
+  text-align: center;
+}
+
+/*# sourceMappingURL=style.css.map */

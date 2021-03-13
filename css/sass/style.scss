@@ -1,0 +1,51 @@
+@use 'variables';
+@import '_reset';
+html{
+    font-size: variables.$font-base;
+}
+
+.containar{
+    max-width:variables.$containar;
+    padding-right: 5rem;
+
+}
+
+%card{
+    width: 47rem;
+    border: 1px solid #c6b9df;
+    padding: 1rem .5rem;
+
+}
+.card-header {
+    @extend %card;
+    background: aliceblue;
+    margin-top: 1.3rem;
+}
+
+.card-footer {
+    @extend %card;
+    background: aliceblue;
+
+}
+
+.card-description {
+    background: #c8acac2e;
+    max-width: 48rem;
+}
+
+.card-link {
+    padding: 0.6rem;
+}
+
+    
+
+
+
+p.card-p{
+    padding: 29.2px;
+    margin-bottom: 1rem;
+}
+.head{
+    font-size: 2rem;
+    text-align: center;
+}
